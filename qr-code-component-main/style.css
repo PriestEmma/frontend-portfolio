@@ -54,8 +54,9 @@ img {
 
 .hero {
   max-width: 270px;
-  height: 500px;
+  height: 460px;
   padding: 13px;
+  margin-bottom: 15px;
   background: var(--bg-primary);
   border-radius: 15px;
   align-self: center;
