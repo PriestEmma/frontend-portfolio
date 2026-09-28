@@ -54,7 +54,7 @@ img {
 
 .hero {
   max-width: 270px;
-  height: 450px;
+  height: 500px;
   padding: 13px;
   background: var(--bg-primary);
   border-radius: 15px;
