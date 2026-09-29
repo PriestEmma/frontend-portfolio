@@ -55,11 +55,11 @@ html {
   align-items: center;
 
   img {
-    width: 5rem;
-    height: 5rem;
+    width: 6rem;
+    height: 6rem;
     display: block;
     margin-inline: auto;
-    margin-block: 0 1.6rem;
+    margin-block: 0 1.5rem;
     border-radius: 50%;
   }
 }
