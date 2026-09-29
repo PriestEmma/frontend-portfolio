@@ -18,7 +18,7 @@ a {
   text-decoration: none;
   color: var(--white);
   font-weight: 600;
-  font-size: 0.9375rem;
+  font-size: 0.875rem;
   padding: 0.875rem;
   display: block;
   background: var(--grey-700);
@@ -72,12 +72,12 @@ html {
 .main p.location {
   color: var(--green);
   font-weight: 500;
-  font-size: 0.9375rem;
+  font-size: 0.875rem;
 }
 
 .main p.about {
   color: var(--white);
-  font-size: 0.875rem;
+  font-size: 0.8125rem;
   margin: 1.5rem 0;
   font-weight: 600;
 }
