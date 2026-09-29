@@ -58,6 +58,7 @@ html {
     width: 5rem;
     height: 5rem;
     display: block;
+    margin-bottom: 1.1rem;
     border-radius: 50%;
   }
 }
