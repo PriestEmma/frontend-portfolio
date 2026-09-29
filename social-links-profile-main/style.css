@@ -22,7 +22,7 @@ a {
   padding: 0.875rem;
   display: block;
   background: var(--grey-700);
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
 }
 
@@ -55,8 +55,8 @@ html {
   align-items: center;
 
   img {
-    width: 6rem;
-    height: 6rem;
+    width: 5rem;
+    height: 5rem;
     display: block;
     margin: 0 auto;
     border-radius: 50%;
@@ -71,6 +71,7 @@ html {
 
 .main p.location {
   color: var(--green);
+  font-weight: 500;
   font-size: 0.875rem;
 }
 
