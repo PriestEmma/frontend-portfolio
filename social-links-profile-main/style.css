@@ -66,13 +66,13 @@ html {
 .main h2 {
   color: var(--white);
   font-weight: 600;
-  margin-block: 1.5rem 0.6rem;
+  margin-block: 1.55rem 0.6rem;
 }
 
 .main p.location {
   color: var(--green);
   font-weight: 500;
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
 }
 
 .main p.about {
