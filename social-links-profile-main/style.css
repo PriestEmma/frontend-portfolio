@@ -58,7 +58,8 @@ html {
     width: 5rem;
     height: 5rem;
     display: block;
-    margin: 0 auto;
+    margin-inline: auto;
+    margin-block: 0 1.5rem;
     border-radius: 50%;
   }
 }
