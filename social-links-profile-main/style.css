@@ -78,7 +78,7 @@ html {
 .main p.about {
   color: var(--white);
   font-size: 0.875rem;
-  margin: 1.7rem 0 1rem;
+  margin: 1.7rem 0;
   font-weight: 600;
 }
 
