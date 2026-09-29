@@ -55,11 +55,10 @@ html {
   align-items: center;
 
   img {
-    width: 5rem;
-    height: 5rem;
+    width: 6rem;
+    height: 6rem;
     display: block;
-    margin-inline: auto;
-    margin-block: 0 1.3rem;
+    margin: 0 auto;
     border-radius: 50%;
   }
 }
@@ -67,11 +66,11 @@ html {
 .main h2 {
   color: var(--white);
   font-weight: 600;
+  margin-block: 1.5rem 0.6rem;
 }
 
 .main p.location {
   color: var(--green);
-  margin: 0.6rem 0 0.85rem;
   font-size: 0.875rem;
 }
 
