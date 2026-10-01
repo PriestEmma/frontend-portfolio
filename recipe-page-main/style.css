@@ -235,7 +235,7 @@ img {
   }
 
   .main {
-    padding: 1rem 0;
+    padding: 5rem 0;
     display: flex;
     justify-content: center;
     background: var(--Stone-100);
