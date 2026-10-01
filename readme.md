@@ -10,7 +10,7 @@ These projects are part of my journey in improving my front-end development skil
 | --------------------------- | ------------- | ----------------------------------------------- |
 | QR Code Component           | HTML and CSS, | [View Project](https://frontport1.netlify.app/) |
 | Blog Preview Card Component | HTML and CSS  | [View Project](https://frontport2.netlify.app/) |
-| Project 3 Loading..         | HTML and CSS  | [View Project](#)                               |
+| Social Links Profile Main   | HTML and CSS  | [View Project](https://frontport3.netlify.app/) |
 
 ## Technologies
 
