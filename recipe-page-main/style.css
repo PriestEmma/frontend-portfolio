@@ -57,7 +57,7 @@ ol {
 }
 
 li {
-  padding-left: var(--text-25);
+  padding-inline-start: var(--text-25);
   position: relative;
 }
 
@@ -65,7 +65,7 @@ li::before {
   content: '•';
   position: absolute;
   left: 0;
-  font-size: 1.5rem;
+  font-size: min(1.5rem, 90%);
   color: var(--Stone-600);
 }
 
@@ -79,19 +79,19 @@ img {
 }
 
 /* Main Container */
-.main .main-container {
-  max-width: 500px;
+.main-container {
+  max-width: 31.25rem;
   background: var(--White);
 }
 
-.main .main-container h1 {
+.main-container h1 {
   font-size: clamp(var(--text-30), calc(4vw + 1rem), var(--text-35));
   color: var(--Stone-900);
   font-weight: 500;
   line-height: 1;
 }
 
-.main .main-container p {
+.main-container p {
   margin-block: var(--text-15);
   color: var(--Stone-600);
   font-weight: 500;
@@ -100,83 +100,83 @@ img {
 
 /* Preparation */
 
-.main .main-container .preparation {
+.preparation {
   /* margin: var(--text-20); */
   padding: var(--text-25);
   background: var(--Rose-50);
 }
 
-.main .main-container .preparation h3 {
+.preparation h3 {
   color: var(--Rose-800);
   font-weight: 700;
 }
 
-.main .main-container .preparation li {
+.preparation li {
   margin-block: 0.85rem;
   font-weight: 300;
 }
 
-.main .main-container .preparation ul li:nth-of-type(1)::before {
+.preparation ul li:nth-of-type(1)::before {
   top: 20%;
 }
 
-.main .main-container .preparation ul {
-  padding-left: var(--text-10);
+.preparation ul {
+  padding-inline-start: var(--text-10);
 }
 
 /* Ingredient */
 
-.main .main-container .ingredient h2 {
+.ingredient h2 {
   color: var(--Brown-800);
 }
 
-.main .main-container .ingredient ul {
+.ingredient ul {
   margin-block: var(--text-16);
   border-bottom: 1px solid var(--Stone-150);
 }
 
-.main .main-container .ingredient ul li {
+.ingredient ul li {
   margin-block: 0.5rem;
   font-weight: 500;
   color: var(--Stone-600);
 }
 
-.main .main-container .ingredient ul li:last-of-type {
+.ingredient ul li:last-of-type {
   margin-bottom: var(--text-30);
 }
 
 /* Instruction  */
 
-.container .instruction {
+.instruction {
   margin-block: var(--text-20);
 }
 
-.container .instruction h2 {
+.instruction h2 {
   color: var(--Brown-800);
 }
 
-.container .instruction ol {
+.instruction ol {
   margin-block: 1rem var(--text-30);
   counter-reset: item;
 }
 
-.container .instruction ol li {
+.instruction ol li {
   position: relative;
-  padding-left: var(--text-30);
+  padding-inline-start: var(--text-30);
   color: var(--Stone-600);
   counter-increment: item;
   line-height: 1.4;
   margin-block: 0.5rem;
 }
 
-.container .instruction ol li::before {
+.instruction ol li::before {
   content: counter(item) '.'; /* prints 1. 2. 3. */
   position: absolute;
   left: 0;
 }
 
 /* Nutrition */
-.container .nutrition h3 {
+.nutrition h3 {
   color: var(--Brown-800);
   font-size: var(--text-25);
   font-family: var(--young);
@@ -184,37 +184,36 @@ img {
   border-top: 1px solid var(--Stone-150);
 }
 
-.container .nutrition p {
+.nutrition p {
   font-size: var(--text-16);
   color: var(--Stone-600);
 }
 
-.container .nutrition dl {
+.nutrition dl {
   display: grid;
   grid-template: repeat(4, 1fr) / repeat(2, 1fr);
   row-gap: var(--text-16);
   margin-block: var(--text-20) 0;
 }
 
-.container .nutrition dd {
+.nutrition dd {
   color: var(--Brown-800);
   font-weight: 700;
 }
 
-.container .nutrition dt,
-.container .nutrition dd {
+.nutrition dt,
+.nutrition dd {
   padding-inline: var(--text-25);
   border-bottom: 1px solid var(--Stone-150);
   padding-block: 0 var(--text-16);
 }
 
-.container .nutrition dt:nth-of-type(4),
-.container .nutrition dd:nth-of-type(4) {
+.nutrition dt:nth-of-type(4),
+.nutrition dd:nth-of-type(4) {
   border-bottom: none;
 }
 
-.container .nutrition dt {
-  /* margin-inline: 2rem; */
+.nutrition dt {
   color: var(--Stone-600);
   font-weight: 500;
 }
@@ -225,11 +224,7 @@ img {
   color: var(--Stone-600);
 }
 
-/* .container ul {
-  padding-inline: 0.5rem;
-} */
-
-@media (min-width: 500px) {
+@media (min-width: 31.25rem) {
   img {
     border-radius: 10px;
   }
